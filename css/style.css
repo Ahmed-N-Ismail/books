@@ -1,0 +1,228 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    direction: rtl;
+    background-color: #F2F5F7;
+    font-family: 'Cairo', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+img{
+    border-radius: 10px;
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+.span{
+    color: #fd050d;
+    display: block;
+    font-size: 13px;
+}
+.pad{
+    padding: 80px 0 30px;
+}
+.button{
+    background-color: #FFFFFF;
+    padding: 7px 10px;
+    color: #fd050d;
+    border-radius: 15px;
+    
+}
+button{
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+/*start nav */
+.nav{
+    padding: 10px 0;
+}
+.nav ul , .nav h1{
+    display: inline-block;
+    width: 33%;
+}
+.nav ul li{
+    padding-left: 15px;
+}
+.nav ul li i{
+    padding: 5px;
+}
+.nav h1{
+    text-align: center;
+}
+.nav .nav-itm-left{
+    text-align: left;
+}
+/* end nav */
+/* start books info */
+.books-info{
+    border-bottom: 2px dotted #5D6DBA;
+}
+.books-info .book-container{
+    justify-content: space-between;
+    display: flex;
+}
+.book-info{
+    width: 32.5%;
+    background-color: #D393B6;
+    padding: 15px 30px 15px 0;
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+}
+.book-info p{
+    line-height: 1.3;
+    width: 50%;
+}
+.img{
+    position: absolute;
+    width: 50%;
+    top: 80px;
+    left: -20px;
+}
+.img img{
+    width: 95%;
+}
+.btn-5{
+    margin: 60px 0;
+}
+.btn-5 button{
+    display: inline-block;
+    width: 18.18%;
+    height: 66px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 18px;
+    font-family: 'Cairo', sans-serif;
+}
+.btn-mg{
+    margin-left: 2%;
+}
+.bt1{
+    background-color: #5DABBA;
+}
+.bt2{
+    background-color: #E4ABCB;
+}
+.bt3{
+    background-color:#4EAA60;
+}
+.bt4{
+    background-color: #F18E91;
+}
+.bt5{
+    background-color: #5D6DBA;
+}
+/* end book info */
+/* start product */
+.addion{
+    width: 80%;
+    float: right;
+}
+.sales{
+    width: 20%;
+    float: right;
+    text-align: center;
+}
+.sa{
+    position: relative;
+    margin-bottom: 40px;
+}
+.addion-pro{
+    width: 45%;
+    float: right;
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 34px 2%;
+    box-shadow: 5px 5px 5px #aaaaaa ,-5px -5px 5px #aaaaaa;
+}
+.addion-img{
+    width: 35%;
+    position: absolute;
+    top: -38px;
+    right: 7px;
+}
+.sales-img{
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.sales-img img{
+    width: 100%;
+}
+.sales .span{
+    font-size: 13px;
+}
+.mg{
+    width: 60%;
+    margin-right: 40%;
+    font-size: 13px;
+    line-height: 1.3;
+}
+.pri{
+    margin-top: 15px;
+    padding: 10px;
+    border-top: 1px solid rgb(150, 67, 67);
+}
+.pri .span{
+    display: inline-block;
+    width: 77%;
+}
+.pri .button{
+    background-color: #fd050d;
+    color: #FFFFFF;
+}
+.bo-s{
+    text-align: right;
+    border-bottom: 1px dotted rgb(150, 67, 67);
+    margin-bottom: 10px;
+}
+.s-btn{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+/* footer */
+.footer{
+    background-color: #fff;
+}
+.footer-info{
+    width: 80%;
+    margin: auto;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+.fot-ingo{
+    width: 30%;
+}
+.fot-ingo h2{
+    color: #F35055;
+}
+.f-p{
+    text-align: center;
+    padding: 20px;
+}
